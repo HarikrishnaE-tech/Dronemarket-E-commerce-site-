@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+th:fragment="Layout (content)">
+<head>
+    <title>base </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+	integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		</head>
+		<body>
+   <link rel="stylesheet" href="/css/style.css">
+   
+	<!--Starting Nav bar-->
+	<nav class="navbar navbar-expand-lg" style=color:#bbc4bf; >
+
+	  <div class="container-fluid">
+	    <a class="navbar-brand " href="#"  >
+			<img src="/img/technology.png" width="50" height="30" alt="drone image" >
+			Drone Market</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active " aria-current="page" href="#" >Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link " href="#" >Product</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+	            Dropdown
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a class="dropdown-item " href="#" >Action</a></li>
+	            <li><a class="dropdown-item " href="#" >Another action</a></li>
+	            <li><hr class="dropdown-divider"></li>
+	            <li><a class="dropdown-item " href="#" >Something else here</a></li>
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link disabled " aria-disabled="true"  >Disabled</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex" role="search">
+	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit"  text-light>Search</button>
+	      </form>
+		  <ul class="navbar-nav  mb-2 mb-lg-0">
+		          <li class="nav-item">
+		            <a class="nav-link active " aria-current="page" href="login"  >Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active " aria-current="page" href="register"  >Register</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active " aria-current="page" href="/admin/"  >Admin</a>
+						
+					</li>
+					</ul>
+	    </div>
+	  </div>
+	</nav>
+	
+	<!--Ending of Nav bar-->
+	
+	
+	 <div th:replace="${content}"></div>
+	 
+	 
+	 <!--Starting footer-->
+	 
+	 <!-- Footer -->
+	 <footer class="bg-dark text-light pt-4" style="margin-top: 250px;">
+	   <div class="container">
+	     <div class="row">
+	       <!-- Contact Info Section -->
+	       <div class="col-md-4 mb-3">
+	         <h5>Contact Us</h5>
+	         <p><i class="fas fa-map-marker-alt"></i> 123 Drone Street, New York, NY</p>
+	         <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+	         <p><i class="fas fa-envelope"></i> contact@dronemarket.com</p>
+	       </div>
+	       
+	       <!-- Quick Links Section -->
+	       <div class="col-md-4 mb-3">
+	         <h5>Quick Links</h5>
+	         <ul class="list-unstyled">
+	           <li><a href="#" class="text-light">Home</a></li>
+	           <li><a href="#" class="text-light">Products</a></li>
+	           <li><a href="#" class="text-light">About Us</a></li>
+	           <li><a href="#" class="text-light">Contact</a></li>
+	         </ul>
+	       </div>
+	       
+	       <!-- Social Media Section -->
+	       <div class="col-md-4 mb-3">
+	         <h5>Follow Us</h5>
+	         <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+	         <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+	         <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+	         <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+	       </div>
+	     </div>
+	     
+	     <!-- Copyright -->
+	     <div class="text-center py-3">
+	       <p class="mb-0">© 2024 Drone Market. All rights reserved.</p>
+	     </div>
+	   </div>
+	 </footer>
+
+	
+	 
+	 
+	 
+	 <!--Ending footer-->
+	 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

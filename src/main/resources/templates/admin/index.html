@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+
+   th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <title>Index Page</title>
+	
+</head>
+<body>
+<section>
+<div class="container pb-5">
+		<p class="text-center fs-4">Admin Section</p>
+<div class="row m-4">
+<!--card 1-->
+	<div class="col-md-4">
+		<a href="load_addprod" class="text-decoration-none">
+		<div class="card card-sh">
+			<div class="card-body text-center">
+				<i class="fa-solid fa-square-plus fs-3"></i>
+				<p class=" fas-3">Add product</p>
+			</div>
+		</div>
+		</a>
+	</div>	
+	
+<!--card-2-->	
+	
+<div class="col-md-4">
+		<a href="category" class="text-decoration-none">
+		<div class="card card-sh">
+			<div class="card-body text-center">
+				<i class="fa-solid fa-list fs-4"></i>
+				<p class=" fas-3">Category</p>
+			</div>
+		</div>
+		</a>
+	</div>	
+	
+<!--card-3-->	
+	
+<div class="col-md-4">
+		<a href="/admin/products" class="text-decoration-none">
+		<div class="card card-sh">
+			<div class="card-body text-center">
+			<i class="fa-solid fa-table-list fs-4"></i>
+				<p class=" fas-3">View product</p>
+			</div>
+		</div>
+		</a>
+	</div>	
+	
+	</div>
+<!--row ends-->	
+	
+<div class="row m-4">
+	<!--card 1-->
+		<div class="col-md-4">
+			<a href="#" class="text-decoration-none">
+			<div class="card card-sh">
+				<div class="card-body text-center">
+					<i class="fa-solid fa-box fs-4"></i>
+					<p class=" fas-3">Parcels</p>
+				</div>
+			</div>
+			</a>
+		</div>	
+		
+	<!--card-2-->	
+		
+	<div class="col-md-4">
+			<a href="#" class="text-decoration-none">
+			<div class="card card-sh">
+				<div class="card-body text-center">
+				<i class="fa-solid fa-users fs-4"></i>
+					<p class=" fas-3">User</p>
+				</div>
+			</div>
+			</a>
+		</div>	
+		
+	<!--card-3-->	
+		
+	<div class="col-md-4">
+			<a href="#" class="text-decoration-none">
+			<div class="card card-sh">
+				<div class="card-body text-center">
+					<i class="fa-solid fa-user fs-4"></i>
+					<p class=" fas-3">Admin</p>
+				</div>
+			</div>
+			</a>
+		</div>	
+		
+		</div>
+		<!--row ends-->	
+			
+	
+	
+</div>
+	
+		
+</section>
+		
+		
+		
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>		

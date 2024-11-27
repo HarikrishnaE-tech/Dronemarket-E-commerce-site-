@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+
+   th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <title>Index Page</title>
+</head>
+<body>
+    <section>
+      
+		<div class="container mt-4 pd-5">
+				<div class="row">
+					<div class="col-6 p-3">
+						<img src="/img/loginregister.png" class="" style="width:500px; height: 500px;">
+						
+					</div>
+					<div class="col-6 p-3">
+						<div class="card">
+							<div class="card-header">
+								<p class="text-center fs-4">REGISTER</p>
+							</div>
+							<div class="card-body">
+							
+								 <div class="row">
+									   <div class="col-md-6">
+									        <label class="form-label">Name</label>
+									         <input type="text" class="form-control" name="name">
+									   </div>
+									    <div class="col-md-6">
+									          <label class="form-label">Mobile Number</label>
+									          <input type="number" class="form-control" name="mobilenumber">
+									      </div>
+									</div>
+									
+									<label class="form-label">Email</label>
+									<input type="email" class="form-control" name="email">
+									
+								<div class="row">	
+									 <div class="col-md-6">
+									     <label class="form-label">Address</label>
+									     <input type="text" class="form-control" name="address">
+									 </div>
+									 <div class="col-md-6">
+						                  <label class="form-label">City</label>
+					                      <input type="text" class="form-control" name="city">
+									  </div>
+								</div>
+								
+								<div class="row">	
+									<div class="col-md-6">
+										 <label class="form-label">State</label>
+									     <input type="text" class="form-control" name="state">
+										 </div>
+									<div class="col-md-6">
+										 <label class="form-label">PinCode</label>
+										 <input type="number" class="form-control" name="pincode">
+									 </div>
+								</div>
+								
+								<div class="row">		
+									<div class="col-md-6">
+										<label class="form-label">Password</label>
+										<input type="password" class="form-control" name="password">
+										</div>
+									<div class="col-md-6">
+										 <label class="form-label">Confirm Password</label>
+										 <input type="number" class="form-control" name="confirmpassword">
+										 </div>
+								  </div>
+												
+										
+								</form>
+								<div class="card-footer pt-3">
+									
+									<p>if you already created an account ? <a href="#">login now</a></p>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+			</div>	
+				
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    </section>
+</body>
+</html>
+

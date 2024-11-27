@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+
+   th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <title>Index Page</title>
+	
+
+</head>
+<body>
+    <section>
+       
+		<!-- starting carousal -->
+		
+		<div id="carouselExample" class="carousel slide">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="/img/caro1.jpg" class="d-block w-100 " alt="..." style="height: 500px; object-fit: cover;">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="/img/caro6.jpg" class="d-block w-100 " alt="..."style="height: 500px; object-fit: cover;">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="/img/caro7.jpg" class="d-block w-100 " alt="..."style="height: 500px; object-fit: cover;">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+		
+		<!--Ending carousal-->
+		
+		<!-- starting Category-->
+		
+		<div class="container mt-5">
+		    <div class="row">
+		        <p class="text-center fs-4 ">Category</p>
+				<hr class="mb-4">
+		        <div class="col-md-4">
+		            <div class="card-body text-center" style="width:400px";>
+		                <img src="/img/fixedwing.png" class="img-fluid" alt="Fixed Wing Drone">
+		                <p>Fixed Wing Drone</p>
+		            </div>
+		        </div>
+
+		        <div class="col-md-4">
+		            <div class="card-body text-center" style="width:400px";>
+		                <img src="/img/multi.png" class="img-fluid" alt="Multi Rotor Drone">
+		                <p>Multi Rotor Drone</p>
+		            </div>
+		        </div>
+
+		        <div class="col-md-4">
+		            <div class="card-body text-center" style="width:400px";>
+		                <img src="/img/single roaster.png" class="img-fluid" alt="Single Rotor Drone">
+		                <p>Single Rotor Drone</p>
+		            </div>
+		        </div>
+
+		    </div>
+		</div>
+
+		
+		
+		<!--Ending category-->
+		
+		<!-- Starting of Latest Product-->
+		<div class="container mt-7">
+			<div class="row">
+				<p class="text-center fs-4">Latest Product</p>
+				<hr class="mb-6">
+				<div class="card-body text-center" style="width:400px">
+					<img src="/img/categ1.png" class="img-fluid" alt="XK A1200 3D6G:">
+					<p class="text-center pt-2">XK A1200 3D6G:</p>
+				</div>
+				
+				<div class="card-body text-center" style="width:400px">
+			    <img src="/img/categ2.png" class="img-fluid" alt="DJI Mavic Air 2;">
+			    <p class="text-center pt-2">DJI Mavic Air 2</p>
+				</div>
+				
+				<div class="card-body text-center" style="width:400px">
+			    <img src="/img/categ3.png" class="img-fluid" alt="DJI Mavic Air 2;">
+				<p class="text-center pt-2">DJI Mavic Air 2</p>
+				</div>
+				
+				<div class="card-body text-center" style="width:400px">
+				<img src="/img/categ4.png" class="img-fluid" alt="DJI Mavic Air 2;">
+				<p class="text-center pt-2">DJI Mavic Air 2</p>
+			    </div>
+				
+				<div class="card-body text-center" style="width:400px">
+				<img src="/img/categ5.png" class="img-fluid" alt="DJI Mavic Air 2;">
+				<p class="text-center pt-2">DJI Mavic Air 2</p>
+				</div>
+				
+				<div class="card-body text-center" style="width:400px">
+				<img src="/img/categ6.png" class="img-fluid" alt="DJI Mavic Air 2;">
+				<p class="text-center pt-2">DJI Mavic Air 2</p>
+				 </div>
+				
+			</div>
+			
+		</div>
+		
+		<!--Ending of Latest Product-->
+		
+    </section>
+</body>
+</html>
+

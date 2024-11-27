@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+
+   th:replace="~{base :: Layout(~{::section})}">
+<head>
+    <title>view product</title>
+
+</head>
+<body>
+<section>
+	<!--start of input group-->
+		<div class="container-fluid ">
+		  <div class="row justify-content-center">
+		    <!-- search box -->
+		    <div class="col-md-6 d-flex align-items-center justify-content-center pb-3">
+		      <div class="input-group" style="width: 80%;">
+		        <input type="text" class="form-control" placeholder="products" aria-label="products" aria-describedby="button-addon2">
+		        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+		      </div>
+		    </div>
+				<hr style="border: 1px solid rgb(220, 220, 220);">
+		  </div>
+		</div>
+	 <!--end of input group--> 
+		
+		
+	 
+<div class="container pt-2 pb-2">
+<div class="row">
+			
+	 <!-- list group --> 
+			<div class="col-md-3">
+				<!-- List Group on the left -->
+				      <div class="col-md-12">
+				        <div class="list-group card-sh">
+				          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+				            Multi Rotor drone
+				          </a>
+				          <a href="#" class="list-group-item list-group-item-action">Fixed Wing drone</a>
+				          <a href="#" class="list-group-item list-group-item-action">Single Rotor Drone</a>
+				          
+				          <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+				        </div>
+				      </div>
+			</div>
+	<!--end of list group-->
+			
+	<!--product list of items-->
+			
+		<div class="col-md-9 pb-5">
+			<div class="card card-sh">
+				<div class="card-body">
+					<p class="text-center fs-3">PRODUCT</p>
+					
+					
+				<div class="row">
+					<div class="col-md-3 p-2">
+					<div class="card p-3">
+					<div class="card-body">
+					<img src="/img/categ1.png" style="width: 180px; height: 200px;" >
+					<p class="fs -4 text-center">drone</p>
+					<p class="fs-8 text-center">&#8377;500 <span class="fs-8 text-success ">20% off</span></p>
+					</div>
+					<a class="btn btn-primary col-md-6 offset-md-3" href="/view_prod">view details</a>
+					</div>
+					</div>
+					
+					<div class="col-md-3 p-2">
+					<div class="card">
+					<div class="card-body">
+					<img src="/img/categ2.png" style="width: 200px; height: 200px;" >
+					<p class="fs -5 text-center">drone</p>
+					</div>
+					</div>
+					</div>
+					
+				    <div class="col-md-3 p-2">
+					<div class="card">
+				    <div class="card-body">
+					<img src="/img/categ3.png" style="width: 200px; height: 200px;" >
+					<p class="fs -5 text-center">drone</p>
+					</div>
+					</div>
+					</div>
+					
+					<div class="col-md-3 p-2">
+					<div class="card">
+					<div class="card-body">
+					<img src="/img/categ4.png" style="width: 200px; height: 200px;" >
+					<p class="fs -5 text-center">drone</p>
+					</div>
+					</div>
+					</div>
+					
+				</div>	
+					
+					
+			<div class="row">	
+				<div class="col-md-3 p-2">
+				<div class="card">
+				<div class="card-body">
+				<img src="/img/categ5.png" style="width: 200px; height: 200px;" >
+				<p class="fs -5 text-center">drone</p>
+				</div>
+				</div>
+				</div>
+					
+				
+				<div class="col-md-3 p-2">
+				<div class="card">
+				<div class="card-body">
+				<img src="/img/categ6.png" style="width: 200px; height: 200px;" >
+				<p class="fs -5 text-center">drone</p>
+				</div>
+				</div>
+				</div>
+						
+					
+				<div class="col-md-3 p-2">
+				<div class="card">
+				<div class="card-body">
+				<img src="/img/categ7.png" style="width: 200px; height: 200px;" >
+				<p class="fs -5 text-center">drone</p>
+				</div>
+				</div>
+				</div>
+							
+					
+				<div class="col-md-3 p-2">
+				<div class="card">
+				<div class="card-body">
+				<img src="/img/categ8.png" style="width: 200px; height: 200px;" >
+				<p class="fs -5 text-center">drone</p>
+				</div>
+				</div>
+			    </div>
+			</div>			
+		  </div>	
+	   </div>	
+    </div>			
+			
+<!--end of product list of items-->	
+			
+	</div>
+	</div>	
+	
+			  
+	</section>
+
+	
+	
+</body>	
+</html>
